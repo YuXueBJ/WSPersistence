@@ -1,0 +1,1 @@
+../../../../../WSSQLCore/WSSQLCore/Classes/WSPersistenceTableUpgrader.h
