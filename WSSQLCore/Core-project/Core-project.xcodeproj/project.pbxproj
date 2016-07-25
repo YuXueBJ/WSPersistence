@@ -13,6 +13,25 @@
 		E4ED3E5F1D46215000F7CFAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4ED3E5D1D46215000F7CFAB /* Main.storyboard */; };
 		E4ED3E611D46215000F7CFAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4ED3E601D46215000F7CFAB /* Assets.xcassets */; };
 		E4ED3E641D46215000F7CFAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4ED3E621D46215000F7CFAB /* LaunchScreen.storyboard */; };
+		E4ED3E9D1D46236D00F7CFAB /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = E4ED3E7E1D46236D00F7CFAB /* FMDatabase.m */; };
+		E4ED3E9E1D46236D00F7CFAB /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E4ED3E801D46236D00F7CFAB /* FMDatabaseAdditions.m */; };
+		E4ED3E9F1D46236D00F7CFAB /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = E4ED3E821D46236D00F7CFAB /* FMDatabasePool.m */; };
+		E4ED3EA01D46236D00F7CFAB /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = E4ED3E841D46236D00F7CFAB /* FMDatabaseQueue.m */; };
+		E4ED3EA11D46236D00F7CFAB /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = E4ED3E871D46236D00F7CFAB /* FMResultSet.m */; };
+		E4ED3EA21D46236D00F7CFAB /* NSObjectAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = E4ED3E891D46236D00F7CFAB /* NSObjectAddition.m */; };
+		E4ED3EA31D46236D00F7CFAB /* WSPersistenceContext.m in Sources */ = {isa = PBXBuildFile; fileRef = E4ED3E8C1D46236D00F7CFAB /* WSPersistenceContext.m */; };
+		E4ED3EA41D46236D00F7CFAB /* WSPersistenceObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E4ED3E8E1D46236D00F7CFAB /* WSPersistenceObject.m */; };
+		E4ED3EA51D46236D00F7CFAB /* WSPersistenceObjectMateInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E4ED3E901D46236D00F7CFAB /* WSPersistenceObjectMateInfo.m */; };
+		E4ED3EA61D46236D00F7CFAB /* WSPersistenceObjectProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = E4ED3E921D46236D00F7CFAB /* WSPersistenceObjectProperty.m */; };
+		E4ED3EA71D46236D00F7CFAB /* WSPersistenceObjectVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = E4ED3E941D46236D00F7CFAB /* WSPersistenceObjectVersion.m */; };
+		E4ED3EA81D46236D00F7CFAB /* WSPersistenceSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = E4ED3E961D46236D00F7CFAB /* WSPersistenceSequence.m */; };
+		E4ED3EA91D46236D00F7CFAB /* WSPersistenceService.m in Sources */ = {isa = PBXBuildFile; fileRef = E4ED3E981D46236D00F7CFAB /* WSPersistenceService.m */; };
+		E4ED3EAA1D46236D00F7CFAB /* WSPersistenceTableUpgrader.m in Sources */ = {isa = PBXBuildFile; fileRef = E4ED3E9A1D46236D00F7CFAB /* WSPersistenceTableUpgrader.m */; };
+		E4ED3EAB1D46236D00F7CFAB /* WSPersistenceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = E4ED3E9C1D46236D00F7CFAB /* WSPersistenceUtil.m */; };
+		E4ED3EAE1D46238300F7CFAB /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E4ED3EAC1D46238300F7CFAB /* libsqlite3.0.tbd */; };
+		E4ED3EAF1D46238300F7CFAB /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E4ED3EAD1D46238300F7CFAB /* libsqlite3.tbd */; };
+		E4ED3EB21D4623B000F7CFAB /* userInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E4ED3EB11D4623B000F7CFAB /* userInfo.m */; };
+		E4ED3EB81D4623FE00F7CFAB /* UserInfoService.m in Sources */ = {isa = PBXBuildFile; fileRef = E4ED3EB71D4623FE00F7CFAB /* UserInfoService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +45,44 @@
 		E4ED3E601D46215000F7CFAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4ED3E631D46215000F7CFAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4ED3E651D46215000F7CFAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4ED3E7D1D46236D00F7CFAB /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		E4ED3E7E1D46236D00F7CFAB /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		E4ED3E7F1D46236D00F7CFAB /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		E4ED3E801D46236D00F7CFAB /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		E4ED3E811D46236D00F7CFAB /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		E4ED3E821D46236D00F7CFAB /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		E4ED3E831D46236D00F7CFAB /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		E4ED3E841D46236D00F7CFAB /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		E4ED3E851D46236D00F7CFAB /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		E4ED3E861D46236D00F7CFAB /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		E4ED3E871D46236D00F7CFAB /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		E4ED3E881D46236D00F7CFAB /* NSObjectAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSObjectAddition.h; sourceTree = "<group>"; };
+		E4ED3E891D46236D00F7CFAB /* NSObjectAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSObjectAddition.m; sourceTree = "<group>"; };
+		E4ED3E8A1D46236D00F7CFAB /* WSPersistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPersistence.h; sourceTree = "<group>"; };
+		E4ED3E8B1D46236D00F7CFAB /* WSPersistenceContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPersistenceContext.h; sourceTree = "<group>"; };
+		E4ED3E8C1D46236D00F7CFAB /* WSPersistenceContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPersistenceContext.m; sourceTree = "<group>"; };
+		E4ED3E8D1D46236D00F7CFAB /* WSPersistenceObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPersistenceObject.h; sourceTree = "<group>"; };
+		E4ED3E8E1D46236D00F7CFAB /* WSPersistenceObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPersistenceObject.m; sourceTree = "<group>"; };
+		E4ED3E8F1D46236D00F7CFAB /* WSPersistenceObjectMateInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPersistenceObjectMateInfo.h; sourceTree = "<group>"; };
+		E4ED3E901D46236D00F7CFAB /* WSPersistenceObjectMateInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPersistenceObjectMateInfo.m; sourceTree = "<group>"; };
+		E4ED3E911D46236D00F7CFAB /* WSPersistenceObjectProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPersistenceObjectProperty.h; sourceTree = "<group>"; };
+		E4ED3E921D46236D00F7CFAB /* WSPersistenceObjectProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPersistenceObjectProperty.m; sourceTree = "<group>"; };
+		E4ED3E931D46236D00F7CFAB /* WSPersistenceObjectVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPersistenceObjectVersion.h; sourceTree = "<group>"; };
+		E4ED3E941D46236D00F7CFAB /* WSPersistenceObjectVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPersistenceObjectVersion.m; sourceTree = "<group>"; };
+		E4ED3E951D46236D00F7CFAB /* WSPersistenceSequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPersistenceSequence.h; sourceTree = "<group>"; };
+		E4ED3E961D46236D00F7CFAB /* WSPersistenceSequence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPersistenceSequence.m; sourceTree = "<group>"; };
+		E4ED3E971D46236D00F7CFAB /* WSPersistenceService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPersistenceService.h; sourceTree = "<group>"; };
+		E4ED3E981D46236D00F7CFAB /* WSPersistenceService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPersistenceService.m; sourceTree = "<group>"; };
+		E4ED3E991D46236D00F7CFAB /* WSPersistenceTableUpgrader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPersistenceTableUpgrader.h; sourceTree = "<group>"; };
+		E4ED3E9A1D46236D00F7CFAB /* WSPersistenceTableUpgrader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPersistenceTableUpgrader.m; sourceTree = "<group>"; };
+		E4ED3E9B1D46236D00F7CFAB /* WSPersistenceUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPersistenceUtil.h; sourceTree = "<group>"; };
+		E4ED3E9C1D46236D00F7CFAB /* WSPersistenceUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPersistenceUtil.m; sourceTree = "<group>"; };
+		E4ED3EAC1D46238300F7CFAB /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		E4ED3EAD1D46238300F7CFAB /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		E4ED3EB01D4623B000F7CFAB /* userInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = userInfo.h; sourceTree = "<group>"; };
+		E4ED3EB11D4623B000F7CFAB /* userInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = userInfo.m; sourceTree = "<group>"; };
+		E4ED3EB61D4623FE00F7CFAB /* UserInfoService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoService.h; sourceTree = "<group>"; };
+		E4ED3EB71D4623FE00F7CFAB /* UserInfoService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +90,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4ED3EAE1D46238300F7CFAB /* libsqlite3.0.tbd in Frameworks */,
+				E4ED3EAF1D46238300F7CFAB /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +101,8 @@
 		E4ED3E481D46215000F7CFAB = {
 			isa = PBXGroup;
 			children = (
+				E4ED3EAC1D46238300F7CFAB /* libsqlite3.0.tbd */,
+				E4ED3EAD1D46238300F7CFAB /* libsqlite3.tbd */,
 				E4ED3E531D46215000F7CFAB /* Core-project */,
 				E4ED3E521D46215000F7CFAB /* Products */,
 			);
@@ -58,10 +119,15 @@
 		E4ED3E531D46215000F7CFAB /* Core-project */ = {
 			isa = PBXGroup;
 			children = (
+				E4ED3E7B1D46236D00F7CFAB /* SQLCore */,
 				E4ED3E571D46215000F7CFAB /* AppDelegate.h */,
 				E4ED3E581D46215000F7CFAB /* AppDelegate.m */,
 				E4ED3E5A1D46215000F7CFAB /* ViewController.h */,
 				E4ED3E5B1D46215000F7CFAB /* ViewController.m */,
+				E4ED3EB01D4623B000F7CFAB /* userInfo.h */,
+				E4ED3EB11D4623B000F7CFAB /* userInfo.m */,
+				E4ED3EB61D4623FE00F7CFAB /* UserInfoService.h */,
+				E4ED3EB71D4623FE00F7CFAB /* UserInfoService.m */,
 				E4ED3E5D1D46215000F7CFAB /* Main.storyboard */,
 				E4ED3E601D46215000F7CFAB /* Assets.xcassets */,
 				E4ED3E621D46215000F7CFAB /* LaunchScreen.storyboard */,
@@ -77,6 +143,53 @@
 				E4ED3E551D46215000F7CFAB /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E4ED3E7B1D46236D00F7CFAB /* SQLCore */ = {
+			isa = PBXGroup;
+			children = (
+				E4ED3E7C1D46236D00F7CFAB /* FMDB */,
+				E4ED3E881D46236D00F7CFAB /* NSObjectAddition.h */,
+				E4ED3E891D46236D00F7CFAB /* NSObjectAddition.m */,
+				E4ED3E8A1D46236D00F7CFAB /* WSPersistence.h */,
+				E4ED3E8B1D46236D00F7CFAB /* WSPersistenceContext.h */,
+				E4ED3E8C1D46236D00F7CFAB /* WSPersistenceContext.m */,
+				E4ED3E8D1D46236D00F7CFAB /* WSPersistenceObject.h */,
+				E4ED3E8E1D46236D00F7CFAB /* WSPersistenceObject.m */,
+				E4ED3E8F1D46236D00F7CFAB /* WSPersistenceObjectMateInfo.h */,
+				E4ED3E901D46236D00F7CFAB /* WSPersistenceObjectMateInfo.m */,
+				E4ED3E911D46236D00F7CFAB /* WSPersistenceObjectProperty.h */,
+				E4ED3E921D46236D00F7CFAB /* WSPersistenceObjectProperty.m */,
+				E4ED3E931D46236D00F7CFAB /* WSPersistenceObjectVersion.h */,
+				E4ED3E941D46236D00F7CFAB /* WSPersistenceObjectVersion.m */,
+				E4ED3E951D46236D00F7CFAB /* WSPersistenceSequence.h */,
+				E4ED3E961D46236D00F7CFAB /* WSPersistenceSequence.m */,
+				E4ED3E971D46236D00F7CFAB /* WSPersistenceService.h */,
+				E4ED3E981D46236D00F7CFAB /* WSPersistenceService.m */,
+				E4ED3E991D46236D00F7CFAB /* WSPersistenceTableUpgrader.h */,
+				E4ED3E9A1D46236D00F7CFAB /* WSPersistenceTableUpgrader.m */,
+				E4ED3E9B1D46236D00F7CFAB /* WSPersistenceUtil.h */,
+				E4ED3E9C1D46236D00F7CFAB /* WSPersistenceUtil.m */,
+			);
+			path = SQLCore;
+			sourceTree = "<group>";
+		};
+		E4ED3E7C1D46236D00F7CFAB /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				E4ED3E7D1D46236D00F7CFAB /* FMDatabase.h */,
+				E4ED3E7E1D46236D00F7CFAB /* FMDatabase.m */,
+				E4ED3E7F1D46236D00F7CFAB /* FMDatabaseAdditions.h */,
+				E4ED3E801D46236D00F7CFAB /* FMDatabaseAdditions.m */,
+				E4ED3E811D46236D00F7CFAB /* FMDatabasePool.h */,
+				E4ED3E821D46236D00F7CFAB /* FMDatabasePool.m */,
+				E4ED3E831D46236D00F7CFAB /* FMDatabaseQueue.h */,
+				E4ED3E841D46236D00F7CFAB /* FMDatabaseQueue.m */,
+				E4ED3E851D46236D00F7CFAB /* FMDB.h */,
+				E4ED3E861D46236D00F7CFAB /* FMResultSet.h */,
+				E4ED3E871D46236D00F7CFAB /* FMResultSet.m */,
+			);
+			path = FMDB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,9 +262,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4ED3EAA1D46236D00F7CFAB /* WSPersistenceTableUpgrader.m in Sources */,
+				E4ED3EAB1D46236D00F7CFAB /* WSPersistenceUtil.m in Sources */,
 				E4ED3E5C1D46215000F7CFAB /* ViewController.m in Sources */,
+				E4ED3EA91D46236D00F7CFAB /* WSPersistenceService.m in Sources */,
+				E4ED3EB81D4623FE00F7CFAB /* UserInfoService.m in Sources */,
+				E4ED3EA51D46236D00F7CFAB /* WSPersistenceObjectMateInfo.m in Sources */,
+				E4ED3E9F1D46236D00F7CFAB /* FMDatabasePool.m in Sources */,
+				E4ED3EB21D4623B000F7CFAB /* userInfo.m in Sources */,
+				E4ED3EA81D46236D00F7CFAB /* WSPersistenceSequence.m in Sources */,
 				E4ED3E591D46215000F7CFAB /* AppDelegate.m in Sources */,
+				E4ED3EA21D46236D00F7CFAB /* NSObjectAddition.m in Sources */,
+				E4ED3EA71D46236D00F7CFAB /* WSPersistenceObjectVersion.m in Sources */,
+				E4ED3EA61D46236D00F7CFAB /* WSPersistenceObjectProperty.m in Sources */,
+				E4ED3EA41D46236D00F7CFAB /* WSPersistenceObject.m in Sources */,
+				E4ED3EA01D46236D00F7CFAB /* FMDatabaseQueue.m in Sources */,
+				E4ED3EA31D46236D00F7CFAB /* WSPersistenceContext.m in Sources */,
 				E4ED3E561D46215000F7CFAB /* main.m in Sources */,
+				E4ED3E9D1D46236D00F7CFAB /* FMDatabase.m in Sources */,
+				E4ED3EA11D46236D00F7CFAB /* FMResultSet.m in Sources */,
+				E4ED3E9E1D46236D00F7CFAB /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
