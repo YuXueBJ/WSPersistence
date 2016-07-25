@@ -6,7 +6,8 @@
 //  Copyright © 2016年 zhuhongwei. All rights reserved.
 //
 
-#import "WSPersistenceService.h"
+#import "WSPersistence.h"
+
 #import "userInfo.h"
 
 @interface UserInfoService : WSPersistenceService

@@ -1,12 +1,12 @@
 //
-//  NSObjectAddition.m
+//  WSObjectAddition.m
 //  WXPersistence
 //
 //  Created by 朱洪伟 on 15/11/12.
 //  Copyright © 2015年 个人博客：www.zhwios.com All rights reserved.
 //
 
-#import "NSObjectAddition.h"
+#import "WSObjectAddition.h"
 #if (TARGET_OS_IPHONE)
 
 #import <objc/runtime.h>

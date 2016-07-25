@@ -8,7 +8,7 @@
 
 #import "WSPersistenceObjectProperty.h"
 #import <objc/runtime.h>
-#import "NSObjectAddition.h"
+#import "WSObjectAddition.h"
 #import "WSPersistenceUtil.h"
 #import "WSPersistenceObjectMateInfo.h"
 #import "WSPersistenceObject.h"

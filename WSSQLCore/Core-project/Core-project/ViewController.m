@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "WSPersistenceContext.h"
+#import "WSPersistence.h"
 #import "UserInfoService.h"
 #import "userInfo.h"
 
@@ -25,12 +25,14 @@
     
     [self startCreateSqlit];
     
+
 //------------------------------------------------------------------
 //初始化
     NSDictionary * dic = @{@"name":@"mo",
                            @"sex":@"女",
                            @"id":@(98),
                            @"des":@"回家第三方"};
+    
     userInfo * data = [[userInfo alloc] initWithJson:dic];
 //------------------------------------------------------------------
     
@@ -39,7 +41,20 @@
     [self.userInfoData saveUserInfoDataList:data];
 //------------------------------------------------------------------
     
-  
+//------------------------------------------------------------------
+//存数据库
+[self.userInfoData saveUserInfoDataList:data];
+//------------------------------------------------------------------
+    
+//------------------------------------------------------------------
+//获取全部数据
+    userInfo *  temp = [self.userInfoData getAllUserInfoData];
+    NSLog(@"%@",temp);
+    NSLog(@"-----------");
+    NSLog(@"%@",temp.name);
+
+//------------------------------------------------------------------
+    
 //------------------------------------------------------------------
 //获取全部数据
     NSArray * list = [self.userInfoData getAllUserInfoData];

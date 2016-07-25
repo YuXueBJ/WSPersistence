@@ -1,5 +1,5 @@
 //
-//  NSObjectAddition.h
+//  WSObjectAddition.h
 //  WXPersistence
 //
 //  Created by 朱洪伟 on 15/11/12.
