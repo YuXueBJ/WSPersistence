@@ -40,5 +40,5 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   s.library = 'sqlite3', 'sqlite3.0'
-  s.dependency 'FMDB'
+  s.dependency 'FMDB', '~> 2.6'
 end

@@ -1,11 +1,5 @@
 use_frameworks!
 
 target 'WSSQLCore_Example' do
-  pod 'WSSQLCore', :path => '../'
-
-  target 'WSSQLCore_Tests' do
-    inherit! :search_paths
-
-    pod 'Kiwi'
-  end
+  pod 'WSSQLCore', :path => ‘../'
 end

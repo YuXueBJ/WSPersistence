@@ -1,9 +1,11 @@
 PODS:
-  - Kiwi (2.4.0)
-  - WSSQLCore (0.1.0)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - WSSQLCore (0.1.0):
+    - FMDB (~> 2.6)
 
 DEPENDENCIES:
-  - Kiwi
   - WSSQLCore (from `../`)
 
 EXTERNAL SOURCES:
@@ -11,9 +13,9 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
-  WSSQLCore: 38dadcc1c145a3956988c13aaa32695713356da6
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  WSSQLCore: ee8c4448c85ea68cbb821baae80d8f03b447647a
 
-PODFILE CHECKSUM: 14e1f9a4d3cacf221ae86f9645dafb0b358e5478
+PODFILE CHECKSUM: e0f3808d7df76a18c67cefaa3e1cda9bb491752c
 
 COCOAPODS: 1.0.1
