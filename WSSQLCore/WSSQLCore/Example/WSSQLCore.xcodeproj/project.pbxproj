@@ -22,10 +22,10 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		A1671F06274B752FE923C33C /* Pods_WSSQLCore_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4B75CD89108C8FF66307450 /* Pods_WSSQLCore_Example.framework */; };
-		E4ED3F741D4A09C800F7CFAB /* userInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E4ED3F711D4A09C800F7CFAB /* userInfo.m */; };
-		E4ED3F751D4A09C800F7CFAB /* UserInfoService.m in Sources */ = {isa = PBXBuildFile; fileRef = E4ED3F731D4A09C800F7CFAB /* UserInfoService.m */; };
 		E4ED3F781D4A09F900F7CFAB /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E4ED3F761D4A09F900F7CFAB /* libsqlite3.0.tbd */; };
 		E4ED3F791D4A09F900F7CFAB /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E4ED3F771D4A09F900F7CFAB /* libsqlite3.tbd */; };
+		E4ED3F851D4EEF4A00F7CFAB /* userInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E4ED3F821D4EEF4A00F7CFAB /* userInfo.m */; };
+		E4ED3F861D4EEF4A00F7CFAB /* UserInfoService.m in Sources */ = {isa = PBXBuildFile; fileRef = E4ED3F841D4EEF4A00F7CFAB /* UserInfoService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,12 +66,12 @@
 		74CFEF3164D57914A08087F9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		E4B75CD89108C8FF66307450 /* Pods_WSSQLCore_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WSSQLCore_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4ED3F701D4A09C800F7CFAB /* userInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = userInfo.h; path = "../../../Core-project/Core-project/userInfo.h"; sourceTree = "<group>"; };
-		E4ED3F711D4A09C800F7CFAB /* userInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = userInfo.m; path = "../../../Core-project/Core-project/userInfo.m"; sourceTree = "<group>"; };
-		E4ED3F721D4A09C800F7CFAB /* UserInfoService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserInfoService.h; path = "../../../Core-project/Core-project/UserInfoService.h"; sourceTree = "<group>"; };
-		E4ED3F731D4A09C800F7CFAB /* UserInfoService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserInfoService.m; path = "../../../Core-project/Core-project/UserInfoService.m"; sourceTree = "<group>"; };
 		E4ED3F761D4A09F900F7CFAB /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		E4ED3F771D4A09F900F7CFAB /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		E4ED3F811D4EEF4A00F7CFAB /* userInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = userInfo.h; sourceTree = "<group>"; };
+		E4ED3F821D4EEF4A00F7CFAB /* userInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = userInfo.m; sourceTree = "<group>"; };
+		E4ED3F831D4EEF4A00F7CFAB /* UserInfoService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoService.h; sourceTree = "<group>"; };
+		E4ED3F841D4EEF4A00F7CFAB /* UserInfoService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,10 +145,10 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* WSViewController.h */,
 				6003F5A6195388D20070C39A /* WSViewController.m */,
-				E4ED3F701D4A09C800F7CFAB /* userInfo.h */,
-				E4ED3F711D4A09C800F7CFAB /* userInfo.m */,
-				E4ED3F721D4A09C800F7CFAB /* UserInfoService.h */,
-				E4ED3F731D4A09C800F7CFAB /* UserInfoService.m */,
+				E4ED3F811D4EEF4A00F7CFAB /* userInfo.h */,
+				E4ED3F821D4EEF4A00F7CFAB /* userInfo.m */,
+				E4ED3F831D4EEF4A00F7CFAB /* UserInfoService.h */,
+				E4ED3F841D4EEF4A00F7CFAB /* UserInfoService.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -402,11 +402,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4ED3F741D4A09C800F7CFAB /* userInfo.m in Sources */,
+				E4ED3F851D4EEF4A00F7CFAB /* userInfo.m in Sources */,
 				6003F59E195388D20070C39A /* WSAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* WSViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				E4ED3F751D4A09C800F7CFAB /* UserInfoService.m in Sources */,
+				E4ED3F861D4EEF4A00F7CFAB /* UserInfoService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
