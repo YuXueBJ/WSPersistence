@@ -27,7 +27,7 @@
     
     //------------------------------------------------------------------
     //初始化
-    NSDictionary * dic = @{@"name":@"mo",
+    NSDictionary * dic = @{@"name":@"nomo",
                            @"sex":@"女",
                            @"id":@(98),
                            @"des":@"回家第三方"};
@@ -51,7 +51,6 @@
     NSLog(@"%@",temp);
     NSLog(@"-----------");
 //    NSLog(@"%@",temp.name);
-    
     //------------------------------------------------------------------
     
     //------------------------------------------------------------------
@@ -78,9 +77,6 @@
     
     NSString *databaseFolderPath = [documentPath stringByAppendingPathComponent:@"DATABASE"];
     
-    //    NSString *userId = [NSString stringWithFormat:@"%@", @"test"];
-    //    NSLog(@"changeDBDir by userId : %@",userId);
-    //    databaseFolderPath = [databaseFolderPath stringByAppendingPathComponent:userId];
     databaseFolderPath = [databaseFolderPath stringByAppendingPathComponent:@"USERDATA"];
     NSString *userId = [NSString stringWithFormat:@"%@", @"xxxx"];
     databaseFolderPath = [databaseFolderPath stringByAppendingPathComponent:userId];
@@ -106,23 +102,10 @@
     //    NSString *databaseFilePath = [databaseFolderPath stringByAppendingPathComponent:@"userInfo.sqlite"];
     //    _userPersistenceContext = [[RSPersistenceContext alloc] initWithDbFilePath:databaseFilePath];
     
-    NSString *databaseFilePath = [databaseFolderPath stringByAppendingPathComponent:@"userInfo.sqlite"];
+    NSString * databaseFilePath = [databaseFolderPath stringByAppendingPathComponent:@"userInfo.sqlite"];
+    NSLog(@"createSuccess==%d \npath:%@",createSuccess,databaseFilePath);
+
     _homePersistenceContext = [[WSPersistenceContext alloc] initWithDbFilePath:databaseFilePath];
-    
-    //    databaseFilePath = [databaseFolderPath stringByAppendingPathComponent:@"talkList.sqlite"];
-    //    _talkPersistenceContext = [[RSPersistenceContext alloc] initWithDbFilePath:databaseFilePath];
-    //
-    //    databaseFilePath = [databaseFolderPath stringByAppendingPathComponent:@"campList.sqlite"];
-    //    _campPersistenceContext = [[RSPersistenceContext alloc] initWithDbFilePath:databaseFilePath];
-    //
-    //    databaseFilePath = [databaseFolderPath stringByAppendingPathComponent:@"hotGirl.sqlite"];
-    //    _hotGirlPersistenceContext = [[RSPersistenceContext alloc] initWithDbFilePath:databaseFilePath];
-    //
-    //    databaseFilePath = [databaseFolderPath stringByAppendingPathComponent:@"dreamList.sqlite"];
-    //    _dreamListPersistenceContext =[[RSPersistenceContext alloc] initWithDbFilePath:databaseFilePath];
-    //
-    //    databaseFilePath = [databaseFolderPath stringByAppendingPathComponent:@"adsList.sqlite"];
-    //    _rSCoverListContext =[[RSPersistenceContext alloc] initWithDbFilePath:databaseFilePath];
     
     ////////////////////////////////////////////////////////////////////////
     [self userInfoData];

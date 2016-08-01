@@ -1,1 +1,0 @@
-../../../../../WSSQLCore/WSSQLCore/Classes/WSSQLCore.h
