@@ -1,0 +1,21 @@
+PODS:
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - WSSQLCore (0.1.0):
+    - FMDB (~> 2.6)
+
+DEPENDENCIES:
+  - WSSQLCore (from `../`)
+
+EXTERNAL SOURCES:
+  WSSQLCore:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  WSSQLCore: ee8c4448c85ea68cbb821baae80d8f03b447647a
+
+PODFILE CHECKSUM: e0f3808d7df76a18c67cefaa3e1cda9bb491752c
+
+COCOAPODS: 1.0.1

@@ -1,0 +1,6 @@
+framework module WSSQLCore {
+  umbrella header "WSSQLCore-umbrella.h"
+
+  export *
+  module * { export * }
+}
