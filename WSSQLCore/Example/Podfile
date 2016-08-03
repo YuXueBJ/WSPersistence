@@ -1,5 +1,0 @@
-use_frameworks!
-
-target 'WSSQLCore_Example' do
-  pod 'WSSQLCore', :path => ‘../'
-end

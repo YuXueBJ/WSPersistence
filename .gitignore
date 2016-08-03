@@ -58,3 +58,5 @@ fastlane/screenshots
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+WSSQLCore/pod-project/Pods/Headers/Private/WSSQLCore/NSObjectAddition.h
+WSSQLCore/pod-project/Pods/Headers/Public/WSSQLCore/NSObjectAddition.h
